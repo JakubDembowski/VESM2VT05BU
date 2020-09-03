@@ -3,3 +3,5 @@
 i. Hann er notaður af optiboot hleðslutækinu.
 ii. Munurinn er sá að digital pinninn er aðeins fær um að greina hvort það er spenna til staðar á pinna eða ekki, meðan output pinninn er tengdur við innri Analog to Digital Converter (ADC) og getur mælt raunverulega spennu á pinnanum.
 iii. PWM merki er stafræna fermetrabylgja, þar sem tíðnin er stöðug, en það brot af þeim tíma sem merkið er á (vaktunarferlið eða duty cycle) er hægt að breyta á milli 0 og 100%.
+
+2.
