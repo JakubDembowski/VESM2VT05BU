@@ -1,4 +1,4 @@
-* Ladyada´s lesson 0: Vélbúnaður
+1. Ladyada´s lesson 0: Vélbúnaður
 
 i. Hann er notaður af optiboot hleðslutækinu.
 ii. Munurinn er sá að digital pinninn er aðeins fær um að greina hvort það er spenna til staðar á pinna eða ekki, meðan output pinninn er tengdur við innri Analog to Digital Converter (ADC) og getur mælt raunverulega spennu á pinnanum.
