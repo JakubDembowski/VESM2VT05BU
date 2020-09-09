@@ -1,22 +1,31 @@
 1. 7-Segment Displays: Count Up Timer og Rolling dice (sl. Temperature display)
-  * 
+  * Mitt 7 Segment Display er 'Common Anode' og 
+    Algengir 'Anode displays' eru með öll 'LED Anodes' tengd saman og  þurfa 'Display driver' með afköst sem verða lág til að kveikja á hverjum hluta.
+    'Common Cathode' skjáir hafa öll LED 'Cathodes' tengd saman og þurfa driver með afköst sem verða há til að kveikja á hverjum hluta.
+   
   *
+  
   *
   
 2. LCD1602
   *
+  
   *
 
 3. Stýripinni
   *
+  
   *
 
 4. Stýripinni og LCD
   *
+  
   *
+  
   *
 
 5. Shift Register
   *
-  *
   
+  *
+   
