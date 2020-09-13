@@ -22,41 +22,6 @@ void loop(){
 }
 _____________________________________________________________________________________________________________________
 ___________________________________________________☣️2. LCD1602☣️___________________________________________________
-int latchPin = 5;
-int clockPin = 6;
-int dataPin;
-
-byte leds = 0;
-
-void setup()
-{
-  pinMode(latchPin, OUTPUT);
-  pinMode(dataPin, OUTPUT);
-  pinMode(clockPin, OUTPUT);
-}
-
-void loop()
-{
-  leds = 0;
-  updateShiftRegister();
-  delay(500);
-  for(int i = 0; i < 8; i++)
-  {
-   biteSet(leds, i);
-   updateShiftRegister();
-   delay(500); 
-  }  
-}
-
-void updateShiftRegister()
-{
-  digitalWrite(latchPin, LOW);
-  shiftOut(dataPin, clockPin, LSBFIRST, leds)
-  digitalWrite(latchpin, HIGH)
-}
-
-_____________________________________________________________________________________________________________________
-________________________________________________☣️3. Shift Register☣️_______________________________________________
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -101,3 +66,76 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print("Tolvubraut");
 }
+_____________________________________________________________________________________________________________________
+________________________________________________☣️3. Shift Register☣️_______________________________________________
+int latchPin = 5;
+int clockPin = 6;
+int dataPin;
+
+byte leds = 0;
+
+void setup()
+{
+  pinMode(latchPin, OUTPUT);
+  pinMode(dataPin, OUTPUT);
+  pinMode(clockPin, OUTPUT);
+}
+
+void loop()
+{
+  leds = 0;
+  updateShiftRegister();
+  delay(500);
+  for(int i = 0; i < 8; i++)
+  {
+   biteSet(leds, i);
+   updateShiftRegister();
+   delay(500); 
+  }  
+}
+
+void updateShiftRegister()
+{
+  digitalWrite(latchPin, LOW);
+  shiftOut(dataPin, clockPin, LSBFIRST, leds)
+  digitalWrite(latchpin, HIGH)
+}
+_____________________________________________________________________________________________________________________
+__________________________________________________☣️4. Stýripinni☣️_________________________________________________
+const int x = A0;
+const int y = A1;
+const int takki = 2;
+
+int x_hreyfing = 0;
+int y_hreyfing = 0;
+int takki_stada = 0;
+
+void setup() {
+  pinMode(x, INPUT);
+  pinMode(y, INPUT);
+  pinMode(takki, INPUT_PULLUP); 
+
+  Serial.begin(9600); 
+}
+
+void loop() {
+  x_hreyfing = analogRead(x);
+  y_hreyfing = analogRead(y);
+  takki_stada = digitalRead(takki);
+  
+  Serial.print("X: ");
+  Serial.print(x_hreyfing);
+  Serial.print(" | Y: ");
+  Serial.print(y_hreyfing);
+  Serial.print(" | Takki: ");
+  Serial.println(takki_stada);
+
+  delay(100);
+}
+
+_____________________________________________________________________________________________________________________
+_______________________________________________☣️5. Stýripinni og LCD☣️_____________________________________________
+                                                        
+                                                        ERROR 404
+                                                    😔CODE NOT FOUND😔
+                                                            
