@@ -3,10 +3,14 @@
   〖Algengir 'Anode displays' eru með öll 'LED Anodes' tengd saman og  þurfa 'Display driver' með afköst sem verða lág til að kveikja á hverjum hluta.〗
   〖'Common Cathode' skjáir hafa öll LED 'Cathodes' tengd saman og þurfa driver með afköst sem verða há til að kveikja á hverjum hluta.〗
    
-  *
+  * Hvert viðnám veitir spennufall fyrir hverja díóða í segmentinu. Kostur þessarar hringrásar er að allar ljósdíóðurnar loga jafnsterkar, því að hver og einn hefur jafnmikinn straum sem fer í gegnum hann, þannig að eitt viðnám sem er 220 ohm er nóg.
+  
+  * Ég er ekki viss hvernig ég get breytt þessu. Hafði enga hugmynd og ekkert datt í hug.
 
-3. Stýripinni
+2. Stýripinni
   * Pinnin gefur gildið þegar er ýtt lengst til vinstri: 'X=515, Y=0, Takki=1'
   * Pinnin gefur gildið þegar ekki er ýtt á hann: 'X=515 , Y=513, Takki=1'
 
-   
+3. LCD
+  * Því þá er það í "Write Mode"
+  * Svo að 'Character Values' er auðveldlega hægt að senda til LCD. Þessi háttur er þekktur sem 8-bita háttur þar sem við sendum 8-bita gildi eins og staf eða ASCII gildi til lcd. Í 4 bita stillingu eru aðeins fjórir gagnapinnar notaðir. 'Character' 8 bita ASCII gildi er skipt í tvo 4 bita 'nibbles'.
