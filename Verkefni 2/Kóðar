@@ -330,7 +330,6 @@ bool drawHero(byte position, char* terrainUpper, char* terrainLower, unsigned in
   
   byte digits = (score > 9999) ? 5 : (score > 999) ? 4 : (score > 99) ? 3 : (score > 9) ? 2 : 1;
   
-  // Draw the scene
   terrainUpper[TERRAIN_WIDTH] = '\0';
   terrainLower[TERRAIN_WIDTH] = '\0';
   char temp = terrainUpper[16-digits];
