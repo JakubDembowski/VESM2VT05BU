@@ -17,7 +17,7 @@ unsigned long lidinn_blikk_timi = 0;
 
 String lesaLykilord = ""; // innsláttur skrifast í þetta
 String lykilord = "3830";
-char stadfestaTakn = 'a'; // ýtt á 'a' til að kanna lykilorð
+char stadfestaTakn = 'b'; // ýtt á 'b' til að kanna lykilorð
 
 const unsigned long kodar[] = {  0xFFA25D,
                                  0xFF629D,
