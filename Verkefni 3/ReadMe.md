@@ -1,1 +1,2 @@
-Ég bara..... Hef ekkert að segja.. Um þetta verkefni ég var með enginn vandamál nema með að finna Arduino snúrur fyrir verkefnið þannig ég gat ekki séð hvort að þetta virkar né gat ég fundið Tinkercad projectið nenstaðar. Þannig ég skilaði 3D hönnun og kóðanum.
+Þetta bara.. Gett ágætlega. Veit ekki hvað ég á að bæta inn
+                    :(
