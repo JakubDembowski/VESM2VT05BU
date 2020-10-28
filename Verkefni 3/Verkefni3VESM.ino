@@ -8,7 +8,7 @@
 LiquidCrystal lcd(12, 11, 5, 4, 3, 8);
 UltraSonicDistanceSensor distanceSensor(trigPin, echoPin);
 
-int RECV_PIN = 11;
+int RECV_PIN = 6;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 
