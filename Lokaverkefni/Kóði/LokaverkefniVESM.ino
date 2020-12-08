@@ -83,6 +83,14 @@ Servo myservo;
 int pos  =  50;   
 bool direction  =  true;
 void setup()  {
+    //LED
+    pinMode(LED_BUILTIN, OUTPUT);
+    int led = A5;
+    int led2 = A4;
+    int led4 = A3;
+    int led3 = A2;
+
+    //Stepper og Servo
     myStepper.setMaxSpeed(1000.0);
     myStepper.setAcceleration(50.0);
     myStepper.setSpeed(200);
@@ -104,6 +112,12 @@ void setup()  {
     }
 }
 void loop()  {
+    //LEDs
+    digitalWrite(LED_BUILTIN, HIGH);  
+    delay(1000);                       
+    digitalWrite(LED_BUILTIN, LOW);    
+    delay(1000);   
+    // Stepper
     if  (myStepper.distanceToGo()  ==  0)
     myStepper.moveTo(-myStepper.currentPosition());
     myStepper.run();
