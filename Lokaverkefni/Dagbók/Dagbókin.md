@@ -1,3 +1,6 @@
+# Ef að þú ert að lesa þetta. Þú verður að skilja að ég týndist í LED'onum.. :(
+
+---
 06/12/2020
 ---
 ### Ég byrjaði að vinna rosalega seint í verkefninu enn er kominn með plan hvernig ég ætla að gera það. Ég setti inn 2d hönnunn og kóðann á Github.com og er að fínpússa það aðeins.
